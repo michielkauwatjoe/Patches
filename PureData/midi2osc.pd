@@ -1,0 +1,13 @@
+#N canvas 787 355 450 300 10;
+#X declare -lib mrpeach;
+#X obj 68 35 import mrpeach;
+#X obj 107 248 udpsend;
+#X obj 144 200 packOSC;
+#X msg 96 84 connect localhost 9001;
+#X msg 152 165 send /test \$1;
+#X floatatom 156 123 5 0 0 0 - - -;
+#X text 186 33 http://en.flossmanuals.net/PureData/OSC;
+#X connect 2 0 1 0;
+#X connect 3 0 1 0;
+#X connect 4 0 2 0;
+#X connect 5 0 4 0;
