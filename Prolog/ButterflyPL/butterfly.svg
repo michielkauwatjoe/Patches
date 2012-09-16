@@ -1,0 +1,51 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="1000px" height="612px" version="1.1" xmlns="http://www.w3.org/2000/svg">
+
+<path d="M 618 234 L 236 89 L 90 34 L 34 13 L 13 5 L 8 2 L 5 1 L 2 0 L 1 0 L 0 0 " stroke="black" stroke-width="1" fill="none" />
+<path d="M 382 234 L 146 145 L 90 55 L 56 34 L 35 13 L 22 5 L 14 3 L 9 2 L 6 1 " stroke="black" stroke-width="0.5" fill="none" />
+<path d="M 382 378 L 146 144 L 90 89 L 34 34 L 21 21 L 8 13 L 3 5 L 1 2 " stroke="black" stroke-width="0.5" fill="none" />
+<path d="M 618 378 L 236 234 L 90 89 L 56 55 L 35 21 L 22 8 L 8 3 " stroke="black" stroke-width="1" fill="none" />
+<path d="M 382 234 L 146 89 L 56 34 L 35 21 L 13 8 L 8 3 " stroke="black" stroke-width="1" fill="none" />
+<path d="M 382 234 L 236 89 L 90 34 L 56 13 L 21 8 " stroke="black" stroke-width="0.1" fill="none" />
+<path d="M 382 378 L 236 144 L 146 55 L 56 34 " stroke="black" stroke-width="1" fill="none" />
+<path d="M 618 234 L 236 145 L 90 90 " stroke="black" stroke-width="1" fill="none" />
+<path d="M 618 378 L 382 234 " stroke="black" stroke-width="0.5" fill="none" />
+<path d="M 618 234 " stroke="black" stroke-width="0.5" fill="none" /><g transform="translate(1000,0) scale(-1,1)">
+
+<path d="M 618 378 L 236 144 L 146 89 L 90 55 L 34 34 L 13 21 L 5 8 L 3 5 L 2 2 L 1 1 " stroke="black" stroke-width="0.1" fill="none" />
+<path d="M 382 234 L 146 89 L 90 34 L 56 21 L 21 13 L 13 5 L 8 2 L 5 1 L 3 0 " stroke="black" stroke-width="0.1" fill="none" />
+<path d="M 618 234 L 236 89 L 90 34 L 34 13 L 13 5 L 5 2 L 2 1 L 1 0 " stroke="black" stroke-width="1" fill="none" />
+<path d="M 382 378 L 146 144 L 56 89 L 21 55 L 13 34 L 5 13 L 3 8 " stroke="black" stroke-width="0.1" fill="none" />
+<path d="M 382 234 L 236 89 L 90 55 L 34 21 L 21 13 L 8 5 " stroke="black" stroke-width="0.5" fill="none" />
+<path d="M 382 234 L 236 89 L 146 34 L 90 21 L 34 8 " stroke="black" stroke-width="0.5" fill="none" />
+<path d="M 382 234 L 146 145 L 56 90 L 21 34 " stroke="black" stroke-width="1" fill="none" />
+<path d="M 382 378 L 236 144 L 90 55 " stroke="black" stroke-width="0.1" fill="none" />
+<path d="M 382 234 L 146 89 " stroke="black" stroke-width="0.5" fill="none" />
+<path d="M 382 378 " stroke="black" stroke-width="0.5" fill="none" />
+</g><g transform="translate(0,612) scale(1,-1)">
+
+<path d="M 618 234 L 382 89 L 146 34 L 90 13 L 34 8 L 13 3 L 8 1 L 5 1 L 3 1 L 1 0 " stroke="black" stroke-width="0.5" fill="none" />
+<path d="M 382 234 L 236 145 L 90 90 L 34 34 L 21 13 L 8 5 L 3 3 L 2 1 L 1 0 " stroke="black" stroke-width="0.5" fill="none" />
+<path d="M 618 378 L 382 144 L 236 89 L 146 55 L 56 34 L 35 21 L 13 8 L 8 5 " stroke="black" stroke-width="0.1" fill="none" />
+<path d="M 382 234 L 146 145 L 90 55 L 34 34 L 21 21 L 8 8 L 3 3 " stroke="black" stroke-width="0.5" fill="none" />
+<path d="M 618 234 L 382 145 L 146 90 L 90 56 L 34 21 L 21 8 " stroke="black" stroke-width="0.1" fill="none" />
+<path d="M 382 378 L 236 144 L 146 55 L 90 21 L 56 8 " stroke="black" stroke-width="0.1" fill="none" />
+<path d="M 382 234 L 236 145 L 146 55 L 90 21 " stroke="black" stroke-width="1" fill="none" />
+<path d="M 618 378 L 236 144 L 146 89 " stroke="black" stroke-width="0.5" fill="none" />
+<path d="M 618 378 L 236 234 " stroke="black" stroke-width="0.5" fill="none" />
+<path d="M 618 234 " stroke="black" stroke-width="0.1" fill="none" />
+</g><g transform="translate(1000,612) scale(-1,-1)">
+
+<path d="M 382 234 L 236 145 L 90 90 L 34 34 L 21 13 L 13 5 L 8 2 L 5 1 L 2 1 L 1 0 " stroke="black" stroke-width="0.5" fill="none" />
+<path d="M 382 378 L 146 144 L 56 55 L 35 34 L 22 21 L 14 13 L 5 8 L 2 5 L 1 2 " stroke="black" stroke-width="0.1" fill="none" />
+<path d="M 618 234 L 382 89 L 236 55 L 146 34 L 56 21 L 35 13 L 22 8 L 14 3 " stroke="black" stroke-width="0.5" fill="none" />
+<path d="M 382 378 L 146 234 L 90 89 L 34 34 L 13 21 L 5 13 L 3 5 " stroke="black" stroke-width="0.1" fill="none" />
+<path d="M 618 378 L 382 234 L 146 89 L 90 34 L 34 13 L 13 8 " stroke="black" stroke-width="0.1" fill="none" />
+<path d="M 382 378 L 236 234 L 90 89 L 56 34 L 35 21 " stroke="black" stroke-width="1" fill="none" />
+<path d="M 618 234 L 382 145 L 146 90 L 90 56 " stroke="black" stroke-width="0.1" fill="none" />
+<path d="M 618 234 L 236 89 L 90 34 " stroke="black" stroke-width="1" fill="none" />
+<path d="M 618 378 L 236 234 " stroke="black" stroke-width="0.5" fill="none" />
+<path d="M 382 234 " stroke="black" stroke-width="0.1" fill="none" />
+</g>
+</svg>
