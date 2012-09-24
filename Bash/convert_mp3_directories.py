@@ -1,55 +1,35 @@
 #!/usr/bin/env python
 
 import os
-import re
-path = '/mnt/external/archive/music/official releases'
+from os.path import exists
+import shutil
+path = '/home/michiel/Music/'
+delimiter = ' - '
 
-files = os.listdir(path)
+artists = os.listdir(path)
 
-p = re.compile('/d/d/d/d')
-i = 0
+for artist in artists:
+	artistpath = path + '/' + artist
 
-for root, dirs, files in os.walk(path):
-
-	for dir in dirs:
-
-		list = dir.split(', ')
-		year = list[-1]
+	albums = os.listdir(artistpath)
+	for album in albums:
+		list = album.split(delimiter)
+		year = list[0]
+		if len(year) != 4:
+			break
 		try:
 			year = int(year)
-			if year < 1000 or year > 9999:
-				break
-			else:
-				i += 1
+			print year
 		except:
 			break
 
-		dirname = ', '.join(list[0:-1])
-
-		if i > 100000000:
-			break
-		else:
-			dirname = dirname.split(' (')
-			print dirname[0]
-
-
-	'''
-	if filename.split('.')[1] == 'htmlpart':
-	 	name = filename.split('.')[0]
-		f = open(filename, mode='r')
-		lines = f.readlines()
-		f.close()
-
-		f = open(filename, mode='w')
-
-		index = 0
-		for line in lines:
-			f.write(line)
-			if index == 1:
-				f.write('<p>\n')
-				f.write('<img src="img/cursussen/')
-				f.write(name)
-				f.write('.jpg" alt=" " title="" height="200" />\n')
-				f.write('</p>\n\n\n')
-			index += 1
-	'''
+		albumpath = artistpath + '/' + album
+		if year > 1000 and year < 9999:
+			
+			oldpath = albumpath
+			newpath = artistpath + '/' + delimiter.join(list[1:])
+			if exists(newpath):
+				print newpath + ' exists!'
+			else:
+				shutil.move(oldpath, newpath)
+				print 'moved %s to %s.' % (oldpath, newpath)
