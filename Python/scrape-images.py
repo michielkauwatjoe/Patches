@@ -20,21 +20,26 @@ def main(url, out_folder="/test/"):
 	Downloads all the images at URL to /test/
 	"""
 	soup = bs(urlopen(url))
-	parsed = list(urlparse.urlparse(url))
+	#parsed = list(urlparse.urlparse(url))
 
+	# first get all images.
 	for a in soup.findAll('a', href=True):
 		if '.JPG' in a['href']:
-			print a['href']
-		#	print "Link: %(src)s" % a 
-		'''
-		filename = image["src"].split("/")[-1]
-		parsed[2] = image["src"]
-		outpath = os.path.join(out_folder, filename)
-		if image["src"].lower().startswith("http"):
-			urlretrieve(image["src"], outpath)
-		else:
-			urlretrieve(urlparse.urlunparse(parsed), outpath)
-		'''
+			url_highres = a['href']
+			filename = url_highres.split('/')[-1]
+			outpath = os.path.join(out_folder, filename)
+			if url_highres.lower().startswith("http"):
+				urlretrieve(url_highres, outpath)
+
+	# Then find Older Posts link and do again.
+	for a in soup.findAll('a', href=True):
+		for c in a.contents:
+			if c == u'Older Posts':
+				newurl = a['href']
+				newurl = newurl[:-1] + '1500'
+				main(newurl, out_folder)
+				break
+		
 
 def _usage():
 	u"""
