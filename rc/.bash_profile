@@ -5,7 +5,8 @@ LSCOLORS=ExFxCxDxBxegedabagacad
 export LSCOLORS
 PS1="\u@\h$ "
 # Path extensions.
-PATH="/Library/PostgreSQL/9.3/bin:/usr/local/bin:${PATH}"
+PATH="/usr/bin:${PATH}"
+PATH="/Library/PostgreSQL/9.3/bin:${PATH}"
 PATH="/usr/local/Cellar/ghostscript/9.10_1/bin:${PATH}"
 PATH="/Users/michiel/Library/Python/2.7/bin:${PATH}"
 #PATH="/Users/michiel/source/Android/android-sdk-macosx/platform-tools:${PATH}"
