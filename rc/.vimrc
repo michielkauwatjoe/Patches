@@ -25,3 +25,4 @@ call vundle#begin()
 " " let Vundle manage Vundle, required
 Plugin 'gmarik/Vundle.vim'
 Bundle 'git://github.com/davidhalter/jedi-vim'
+au BufRead,BufNewFile *.wf set filetype=xml
