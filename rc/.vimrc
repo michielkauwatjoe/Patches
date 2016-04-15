@@ -1,8 +1,10 @@
 set tabstop=4
 set shiftwidth=4
+set softtabstop=4
 set expandtab
 set number
 syntax on
+filetype indent plugin on
 highlight ExtraWhitespace ctermbg=red guibg=red
 match ExtraWhitespace /\s\+$/
 autocmd BufWritePre *.py :%s/\s\+$//e
@@ -13,7 +15,7 @@ colorscheme koehler
 set guifont=InputMono\ ExLight\ for\ Powerline:h11
 
 set nocompatible              " be iMproved, required
-filetype off                  " required
+" filetype off                  " required
 
 " set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
