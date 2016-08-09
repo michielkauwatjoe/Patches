@@ -8,6 +8,7 @@ filetype indent plugin on
 highlight ExtraWhitespace ctermbg=red guibg=red
 match ExtraWhitespace /\s\+$/
 autocmd BufWritePre *.py :%s/\s\+$//e
+autocmd! BufNewFile,BufRead *.pde setlocal ft=arduino
 python from powerline.vim import setup as powerline_setup
 python powerline_setup()
 python del powerline_setup
