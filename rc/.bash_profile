@@ -4,11 +4,15 @@ export CLICOLOR
 LSCOLORS=ExFxCxDxBxegedabagacad
 export LSCOLORS
 PS1="\u@\h$ "
+export CUDA_HOME=/usr/local/cuda
+
+# Python paths.
+#export PYTHONPATH="$CUDA_HOME/lib:/usr/local/lib/python2.7/site-packages:$PYTHONPATH"
 
 # Path extensions. Reverse order.
 PATH="/usr/local/sbin:$PATH"
 PATH="/usr/local/bin:$PATH"
-PATH="/usr/local/cuda/bin:$PATH"
+PATH="$CUDA_HOME/bin:$PATH"
 PATH="/usr/bin:${PATH}"
 
 PATH="/Library/PostgreSQL/9.3/bin:${PATH}"
@@ -17,8 +21,8 @@ PATH="/Users/michiel/Library/Python/2.7/bin:${PATH}"
 export PATH
 
 # Library dependency paths.
-LD_LIBRARY_PATH="/usr/local/cuda/lib64:${LD_LIBRARY_PATH}"
-export LD_LIBRARY_PATH
+LD_LIBRARY_PATH="$CUDA_HOME/lib:${LD_LIBRARY_PATH}"
+DYLD_LIBRARY_PATH="$CUDA_HOME/lib:${DYLD_LIBRARY_PATH}"
 
 # Architecture flags.
 export ARCHFLAGS="-arch x86_64 -arch i386 -Wno-error=unused-command-line-argument-hard-error-in-future" # For compilation under Mavericks.
