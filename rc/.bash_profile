@@ -42,7 +42,10 @@ powerline-daemon -q
 POWERLINE_BASH_CONTINUATION=1
 POWERLINE_BASH_SELECT=1
 . /Users/michiel/Library/Python/2.7/lib/python/site-packages/powerline/bindings/bash/powerline.sh
-eval "$(rbenv init -)"
+
 
 # Ruby environment.
-rbenv global 2.1.2 
+export PATH="$HOME/.rbenv/bin:$PATH"
+eval "$(rbenv init -)"
+#rbenv global 2.1.2 
+#rbenv global 1.1.0-2-g4f8925a
