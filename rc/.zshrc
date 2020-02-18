@@ -7,7 +7,7 @@ PS1="\u@\h$ "
 export CUDA_HOME=/usr/local/cuda
 
 # Python / python path extensions.
-alias python=/usr/local/bin/python3
+alias python=python3
 PATH="/Library/Frameworks/Python.framework/Versions/3.8/bin:${PATH}"
 PATH="/usr/local/opt/python/libexec/bin:$PATH"
 
