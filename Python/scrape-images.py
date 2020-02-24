@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 # -*- coding: UTF-8 -*-
 #
 # Downloads all the image links at the supplied URL, and saves them to the
@@ -8,7 +9,7 @@
 # python scrape-images.py http://example.com/ [output]
 #
 
-from BeautifulSoup import BeautifulSoup as bs
+from bs4 import BeautifulSoup as bs
 import urlparse
 from urllib2 import urlopen
 from urllib import urlretrieve
@@ -39,12 +40,12 @@ def main(url, out_folder="/test/"):
 				newurl = newurl[:-1] + '1500'
 				main(newurl, out_folder)
 				break
-		
+
 
 def _usage():
 	u"""
 	"""
-	print "usage: python dumpimages.py http://example.com [outpath]"
+	print("usage: python dumpimages.py http://example.com [outpath]")
 
 if __name__ == "__main__":
 	u"""

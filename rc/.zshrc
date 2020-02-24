@@ -3,7 +3,7 @@ CLICOLOR=1
 export CLICOLOR
 LSCOLORS=ExFxCxDxBxegedabagacad
 export LSCOLORS
-PS1="\u@\h$ "
+PS1="-@-@- $ "
 export CUDA_HOME=/usr/local/cuda
 
 # Python / python path extensions.
@@ -32,6 +32,6 @@ export LC_ALL=en_US.UTF-8
 export LANG=en_US.UTF-8
 
 # Ruby environment.
-export PATH="$HOME/.rbenv/bin:$PATH"
-eval "$(rbenv init -)"
+#export PATH="$HOME/.rbenv/bin:$PATH"
+#eval "$(rbenv init -)"
 
