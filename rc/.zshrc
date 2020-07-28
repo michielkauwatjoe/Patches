@@ -4,28 +4,30 @@ export CLICOLOR
 LSCOLORS=ExFxCxDxBxegedabagacad
 export LSCOLORS
 PS1="-@-@- $ "
-export CUDA_HOME=/usr/local/cuda
+#export CUDA_HOME=/usr/local/cuda
 
 # Python / python path extensions.
-alias python3=python3.8
+#alias python3=python3.8
 alias python=python3
-alias pip3=pip3.8
+#alias pip3=pip3.8
 alias pip=pip3
-PATH="/Library/Frameworks/Python.framework/Versions/3.8/bin:${PATH}"
-PATH="/usr/local/opt/python/libexec/bin:$PATH"
-
-# Other Path extensions. Reverse order.
-# Python paths.
-PATH="/usr/local/bin:$PATH"
-PATH="$CUDA_HOME/bin:$PATH"
-PATH="/usr/bin:${PATH}"
-PATH="/Library/PostgreSQL/9.3/bin:${PATH}"
-PATH="/usr/local/Cellar/ghostscript/9.10_1/bin:${PATH}"
+PATH="/Users/michiel/Library/Python/3.7/bin:${PATH}"
+PATH="/Library/Frameworks/Python.framework/Versions/3.7/bin:${PATH}"
 export PATH
 
+PATH="/usr/bin:${PATH}"
+export PATH
+#PATH="/usr/local/opt/python/libexec/bin:$PATH"
+# Other Path extensions. Reverse order.
+# Python paths.
+#PATH="/usr/local/bin:$PATH"
+#PATH="$CUDA_HOME/bin:$PATH"
+#PATH="/Library/PostgreSQL/9.3/bin:${PATH}"
+#PATH="/usr/local/Cellar/ghostscript/9.10_1/bin:${PATH}"
+
 # Library dependency paths.
-LD_LIBRARY_PATH="$CUDA_HOME/lib:${LD_LIBRARY_PATH}"
-DYLD_LIBRARY_PATH="$CUDA_HOME/lib:${DYLD_LIBRARY_PATH}"
+#LD_LIBRARY_PATH="$CUDA_HOME/lib:${LD_LIBRARY_PATH}"
+#DYLD_LIBRARY_PATH="$CUDA_HOME/lib:${DYLD_LIBRARY_PATH}"
 
 # Architecture flags.
 #export ARCHFLAGS="-arch x86_64 -arch i386 -Wno-error=unused-command-line-argument-hard-error-in-future" # For compilation under Mavericks.
