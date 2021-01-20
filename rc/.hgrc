@@ -1,0 +1,28 @@
+[ui]
+username = User Name <email@adress.com>
+merge = internal:merge
+ignore = ~/.hgignore
+interface = curses
+; paginate = off
+; color = off
+
+[extensions]
+shelve =
+rebase =
+
+[pager]
+pager = less -dFRX
+
+[web]
+style = gitweb
+descend = True
+encoding = utf-8
+address = localhost
+port = 8080
+
+[extensions]
+shelve =
+rebase =
+graphlog =
+histedit =
+purge =
