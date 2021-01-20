@@ -10,11 +10,10 @@ PS1="-@-@- $ "
 # Python / python path extensions.
 alias python=python3
 alias pip=pip3
-PATH="/Users/michiel/Library/Python/3.7/bin:${PATH}"
-PATH="/Library/Frameworks/Python.framework/Versions/3.7/bin:${PATH}"
-export PATH
 
-PATH="/usr/bin:${PATH}"
+# Homebrew. 
+export PATH=/usr/local/bin:/usr/local/sbin:${PATH}
+#export PATH=${PATH}:/Users/michiel/Library/Python/3.x/bin
 export PATH
 
 # Locale.
